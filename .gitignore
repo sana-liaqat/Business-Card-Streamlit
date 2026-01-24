@@ -1,0 +1,22 @@
+# ------------------ Secrets ------------------
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ------------------ Python -------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# ------------------ Virtual Environments -----
+venv/
+.venv/
+env/
+ENV/
+
+# ------------------ Streamlit ----------------
+.streamlit/
+!.streamlit/config.toml
