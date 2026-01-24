@@ -14,7 +14,7 @@ st.set_page_config(
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.title("📇 AI Business Card Scanner")
-st.caption("Powered by GPT-4o Vision")
+st.caption("Powered by OfficeFlowAi")
 
 st.divider()
 
